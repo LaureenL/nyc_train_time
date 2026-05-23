@@ -1,0 +1,2 @@
+export PYTHONPATH="$PWD/gen/python:$PYTHONPATH"
+export MTA_TARGET_STOP_ID="CHANGE_ME"

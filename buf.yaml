@@ -1,0 +1,13 @@
+# For details on buf.yaml configuration, visit https://buf.build/docs/configuration/v2/buf-yaml
+version: v2
+modules:
+  - path: proto
+lint:
+  use:
+    - STANDARD
+  ignore:
+    - proto/com/google/transit/realtime/gtfs-realtime-NYCT.proto
+    - proto/com/google/transit/realtime/gtfs-realtime.proto
+breaking:
+  use:
+    - FILE
