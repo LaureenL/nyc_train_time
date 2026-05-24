@@ -19,7 +19,7 @@ void loop() {}
 
 void connectWifi() {
     //client.setCACert(MTA_ROOT_CA);
-    WiFi.mode(WIFIF_STA);
+    WiFi.mode(WIFI_STA);
     WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
     Serial.print("Connecting to ");
     Serial.println(WIFI_SSID);
