@@ -5,5 +5,7 @@ plugins:
   # protocolbuffers/python depends on protocolbuffers/pyi
   - remote: buf.build/protocolbuffers/pyi:v35.0
     out: gen/python
+  - remote: buf.build/community/nanopb:v0.4.9
+    out: gen/nanopb
 inputs:
   - directory: proto
